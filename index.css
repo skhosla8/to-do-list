@@ -1,0 +1,88 @@
+:root {
+  --mainGrey: #f5f5f5;
+  --mainGreen: #80cfa9;
+  --mainBlack: #333333;
+  --mainRed: #d62828;
+  --mainBlue: #11b5e4;
+}
+
+body {
+  background-color: var(--mainGrey);
+}
+
+#title {
+  padding: 2rem 0 1rem;
+}
+
+#form-control {
+  padding: 0.4rem;
+}
+
+input[type='text'],
+textarea {
+  box-shadow: none !important;
+  border: 1px solid var(--mainGreen) !important;
+  outline: none !important;
+}
+
+.btn-green {
+  border: 1px solid var(--mainGreen);
+  color: var(--mainGreen);
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-green:hover {
+  background-color: var(--mainGreen);
+  color: var(--mainBlack);
+}
+
+.clear-items {
+  padding: 2rem 0;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-icons {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.item-icon {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: transparent;
+}
+
+.item-icon:hover {
+  opacity: 0.7;
+}
+
+.complete-icon {
+  color: var(--mainGreen);
+}
+
+.edit-icon {
+  color: var(--mainBlue);
+}
+
+.delete-icon {
+  color: var(--mainRed);
+}
+
+.strike-through {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.completed {
+  opacity: 0.5;
+}
+
+.completed:hover {
+  opacity: 0.5;
+}
